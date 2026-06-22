@@ -1,8 +1,8 @@
 import dotenv from "dotenv"
 import mongoose from "mongoose"
 import connectDB from "../config/db.js"
-import User from "../models/User.js"
-import Product from "../models/Product.js"
+import User from "../models/user/userSchema.js"
+import Product from "../models/product/productSchema.js"
 
 dotenv.config()
 connectDB()
